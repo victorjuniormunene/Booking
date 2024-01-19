@@ -1,0 +1,46 @@
+<head>
+<link rel="stylesheet" href="style1.css">
+</head>
+<boby>
+    <nav class="junior">
+        <fieldset class="html">
+         <legend>payment servers</legend>
+         <label> M=pesa:
+            <input type="text" name="" value=""><br>
+         <label>
+         </label><br>
+         <label> bank account:
+         <input type="text" name="" value=""><br>
+         <label>Enter account number:
+         <input type="text" name="email" value="">
+         </label>
+         
+         </label><br>
+        
+         
+         
+
+         <a id="paymentbutton"  href="#"><button>pay now</button></a>
+         <div id="confirmationmessage"style="display:none;">
+         <h1> payment is successful!!</h1>
+         <p>thanks for payment...</p>
+         </div>
+         <script>
+           document.getElementById('paymentbutton').addEventListener('click',function(){
+             document.getElementById('confirmationmessage').style="block";
+           });
+         </script>
+         <div class="logoutbutton">
+          <a  id ="logoutbutton" onclick="redirectToNextPage()" href="#"><button>log out</button></a>
+          <script>
+            function redirectToNextPage(){
+              window.location.href='sorry.html';
+            }
+          </script>
+  
+  
+  
+      </div  > 
+      
+         
+</body>
